@@ -1,6 +1,6 @@
-# 🔋 Combined Cycle Power Plant — Energy Output Prediction
+# Combined Cycle Power Plant — Energy Output Prediction
 
-![Power Plant](images/nicolas-hippert-C82jAEQkfE0-unsplash.jpg)
+![Power Plant](images/PIC.jpg)
 
 > Predicting the net hourly electrical energy output (PE) of a Combined Cycle Power Plant using machine learning — from raw sensor data to production-ready regression models.
 
