@@ -160,7 +160,7 @@ feature-engine · shap · statsmodels
 ## Project Structure
 
 ```
-├── CCPP_Complete.ipynb       # Full notebook: EDA + Feature Engineering + Models
+├── CCPP_Complete.ipynb
 ├── images/
 │   ├── PIC.jpg
 │   ├── Scheme.jpg
@@ -168,6 +168,6 @@ feature-engine · shap · statsmodels
 │   ├── Gradient.png
 │   ├── SHAP_FI.png
 │   └── SHAP.png
-├── Folds5x2_pp_TP.xlsx       # Dataset (UCI)
+├── Folds5x2_pp_TP.xlsx)
 └── README.md
 ```
