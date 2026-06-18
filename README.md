@@ -153,12 +153,13 @@ feature-engine · shap · statsmodels
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── CCPP_Complete.ipynb       # Full notebook: EDA + Feature Engineering + Models
 ├── images/
-│   ├── nicolas-hippert-C82jAEQkfE0-unsplash.jpg
+│   ├── PIC.jpg
+│   ├── Scheme.jpg
 │   ├── Model_Comparison.png
 │   ├── Gradient.png
 │   ├── SHAP_FI.png
@@ -166,9 +167,3 @@ feature-engine · shap · statsmodels
 ├── Folds5x2_pp_TP.xlsx       # Dataset (UCI)
 └── README.md
 ```
-
----
-
-## 📚 Reference
-
-Pınar Tüfekci, *"Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods"*, International Journal of Electrical Power & Energy Systems, 2014.
