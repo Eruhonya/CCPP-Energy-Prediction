@@ -6,11 +6,15 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 A **Combined Cycle Power Plant (CCPP)** generates electricity by running two turbine cycles in sequence — a gas turbine and a steam turbine — extracting maximum energy from a single fuel source. The output power varies with ambient conditions, making accurate prediction critical for grid planning and fuel optimisation.
 
 This project covers the full ML pipeline: exploratory data analysis, missing value handling, feature engineering, statistical modelling, and training of 7 regression models with full interpretability analysis.
+
+**How it works**
+
+![CCPP Diagram](images/Scheme.jpg)
 
 **Task:** Regression  
 **Target:** `PE` — Net hourly electrical energy output (MW)  
@@ -18,7 +22,7 @@ This project covers the full ML pipeline: exploratory data analysis, missing val
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |----------|-------|
@@ -38,7 +42,7 @@ This project covers the full ML pipeline: exploratory data analysis, missing val
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis
 - Pairplot, Pearson & Spearman correlation heatmaps
@@ -81,7 +85,7 @@ All models trained on the same preprocessing pipeline:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Model Comparison
 
@@ -109,7 +113,7 @@ All models trained on the same preprocessing pipeline:
 
 ---
 
-## 🏆 Key Findings
+## Key Findings
 
 1. **AT is the dominant predictor** — SHAP values range from −25 to +32 MW. High AT strongly pushes PE down; low AT pushes it up. Gradient Boosting achieves Test R² = **0.965**.
 
@@ -125,7 +129,7 @@ All models trained on the same preprocessing pipeline:
 
 ---
 
-## 🏭 Real-World Application
+## Real-World Application
 
 - **Grid planning** — forecast available capacity hours in advance using weather data (AT, AP, RH)
 - **Fuel optimisation** — adjust fuel consumption precisely based on expected output
@@ -137,7 +141,7 @@ All models trained on the same preprocessing pipeline:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange?logo=scikit-learn)
